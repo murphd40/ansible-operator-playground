@@ -10,4 +10,6 @@ operator-sdk version: "v1.22.1", commit: "46ab175459a775d2fb9f0454d0b4a8850dd745
 
 ```
 operator-sdk init --plugins=ansible --domain=example.com
+
+operator-sdk create api --group cache --version v1alpha1 --kind Memcached --generate-role
 ```
